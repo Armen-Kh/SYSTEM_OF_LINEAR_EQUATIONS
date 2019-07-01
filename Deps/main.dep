@@ -1,0 +1,5 @@
+Deps/main.dep Objectsmain.o: Sources/main.cpp Headers/sle_matrix.hpp \
+ Headers/file_reader.hpp Headers/file_writer.hpp Headers/utility.hpp \
+ Headers/sle_matrix.hpp Headers/file_reader.hpp Headers/file_writer.hpp \
+ Headers/gaussian_elimination.hpp Headers/jacobi_method.hpp \
+ Headers/gauss_seidel_method.hpp
