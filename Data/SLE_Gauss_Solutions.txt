@@ -3,109 +3,109 @@ SS_The system has a single unique solution!
 X(1x2)
 -1, 4, 
 
-#11
+#2
 SS_The system has a single unique solution!
 X(1x2)
 7.11111, -3.22222, 
 
-#12
+#3
 SS_The system has a single unique solution!
 X(1x4)
 1, 2, -1, 1, 
 
-#13
+#4
 SS_The system has a single unique solution!
 X(1x2)
 0.812183, -0.664975, 
 
-#14
+#5
 SS_The system has a single unique solution!
 X(1x3)
 3, 2, 1, 
 
-#15
+#6
 SS_The system has a single unique solution!
 X(1x3)
 -1.42336, 2.13139, 1.9562, 
 
-#16
+#7
 SS_The system has a single unique solution!
 X(1x3)
 1.5, 2.5, 3.5, 
 
-#2
+#8
 IS_The system has infinitely many solutions! Here is one of them.
 X(1x2)
 0.666667, 0, 
 
-#3
-NS_The system has no solution!
-
-#4
-SS_The system has a single unique solution!
-X(1x3)
--0.2, 1.5, 1.1, 
-
-#41
-SS_The system has a single unique solution!
-X(1x3)
--0.2, 1.5, 1.1, 
-
-#42
-NS_The system has no solution!
-
-#43
-IS_The system has infinitely many solutions! Here is one of them.
-X(1x3)
-2, -4, 0, 
-
-#5
-SS_The system has a single unique solution!
-X(1x3)
-2.5, 0.666667, 0.222222, 
-
-#6
-NS_The system has no solution!
-
-#7
-IS_The system has infinitely many solutions! Here is one of them.
-X(1x3)
-0.333333, 0, 0, 
-
-#71
-IS_The system has infinitely many solutions! Here is one of them.
-X(1x3)
-0.4, -0.2, 0, 
-
-#8
-SS_The system has a single unique solution!
-X(1x4)
--1, -2, -0.999999, -2, 
-
 #9
-SS_The system has a single unique solution!
-X(1x5)
-5.7561, -7.02439, -15.439, -6.02439, 15.3659, 
+NS_The system has no solution!
 
 #10
 SS_The system has a single unique solution!
-X(1x5)
-1.2, -0.799997, 3.60001, 4.69999, 2.1, 
+X(1x3)
+-0.2, 1.5, 1.1, 
 
 #11
-IS_The system has infinitely many solutions! Here is one of them.
-X(1x5)
-2.58103, 3.2462, 1.66195, 0.294233, 0, 
+SS_The system has a single unique solution!
+X(1x3)
+-0.2, 1.5, 1.1, 
 
 #12
 NS_The system has no solution!
 
 #13
 IS_The system has infinitely many solutions! Here is one of them.
+X(1x3)
+2, -4, 0, 
+
+#14
+SS_The system has a single unique solution!
+X(1x3)
+2.5, 0.666667, 0.222222, 
+
+#15
+NS_The system has no solution!
+
+#16
+IS_The system has infinitely many solutions! Here is one of them.
+X(1x3)
+0.333333, 0, 0, 
+
+#17
+IS_The system has infinitely many solutions! Here is one of them.
+X(1x3)
+0.4, -0.2, 0, 
+
+#18
+SS_The system has a single unique solution!
+X(1x4)
+-1, -2, -0.999999, -2, 
+
+#19
+SS_The system has a single unique solution!
+X(1x5)
+5.7561, -7.02439, -15.439, -6.02439, 15.3659, 
+
+#20
+SS_The system has a single unique solution!
+X(1x5)
+1.2, -0.799997, 3.60001, 4.69999, 2.1, 
+
+#21
+IS_The system has infinitely many solutions! Here is one of them.
+X(1x5)
+2.58103, 3.2462, 1.66195, 0.294233, 0, 
+
+#22
+NS_The system has no solution!
+
+#23
+IS_The system has infinitely many solutions! Here is one of them.
 X(1x45)
 28.333, 1.05506e-05, -0.238137, 1.00011, -2.47715e-05, 0.999994, -25.3331, 1.00025, -0.333365, 25.3331, 14.6665, 12.6665, -29.333, -0, 4.36893e-05, 6.16003e-06, -0, 2.05334e-06, -4.29154e-06, 0, 0, -0, 58.3328, -58.3328, 19.4443, 0, -2.96241e-05, 0, -0, 0, 0, -0, 0, -0, -0, -0, 0, 0, -0, -0, -0, 0, 0, 0, -0, 
 
-#14
+#24
 IS_The system has infinitely many solutions! Here is one of them.
 X(1x30)
 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 2, 0, 0, 0, 0, 0, 

@@ -1,84 +1,84 @@
 #1
-NSDD_A sufficient condition for the method to converge is not satisfied. The coefficinets matrix(A) is not strictly diagonally dominant.(So you can apply another method for this system: for instance Gaussian Elimination.)
+NSDD_A sufficient condition for the method to converge is not satisfied. The coefficinets matrix(A) is not strictly diagonally dominant. (So you can apply another method for this system: for instance Gaussian Elimination.)
 
-#11
+#2
 Iteration steps: 11
 X(1x2)
 7.11106, -3.22218, 
 
-#12
+#3
 Iteration steps: 6
 X(1x4)
 1.00001, 2, -1, 0.999999, 
 
-#13
+#4
 Iteration steps: 6
 X(1x2)
 0.812186, -0.664973, 
 
-#14
+#5
 Iteration steps: 6
 X(1x3)
 3, 2, 1, 
 
-#15
+#6
 Iteration steps: 8
 X(1x3)
 -1.42337, 2.13139, 1.95621, 
 
-#16
+#7
 Iteration steps: 9
 X(1x3)
 1.50001, 2.5, 3.5, 
 
-#2
-NSDD_A sufficient condition for the method to converge is not satisfied. The coefficinets matrix(A) is not strictly diagonally dominant.(So you can apply another method for this system: for instance Gaussian Elimination.)
-
-#3
-NSDD_A sufficient condition for the method to converge is not satisfied. The coefficinets matrix(A) is not strictly diagonally dominant.(So you can apply another method for this system: for instance Gaussian Elimination.)
-
-#4
-NSDD_A sufficient condition for the method to converge is not satisfied. The coefficinets matrix(A) is not strictly diagonally dominant.(So you can apply another method for this system: for instance Gaussian Elimination.)
-
-#41
-NSQ_Non-square matrix. (So you can apply another method for this system: for instance Gaussian Elimination.)
-
-#42
-NSQ_Non-square matrix. (So you can apply another method for this system: for instance Gaussian Elimination.)
-
-#43
-NSQ_Non-square matrix. (So you can apply another method for this system: for instance Gaussian Elimination.)
-
-#5
-NSDD_A sufficient condition for the method to converge is not satisfied. The coefficinets matrix(A) is not strictly diagonally dominant.(So you can apply another method for this system: for instance Gaussian Elimination.)
-
-#6
-NSDD_A sufficient condition for the method to converge is not satisfied. The coefficinets matrix(A) is not strictly diagonally dominant.(So you can apply another method for this system: for instance Gaussian Elimination.)
-
-#7
-NSQ_Non-square matrix. (So you can apply another method for this system: for instance Gaussian Elimination.)
-
-#71
-NSQ_Non-square matrix. (So you can apply another method for this system: for instance Gaussian Elimination.)
-
 #8
-NSDD_A sufficient condition for the method to converge is not satisfied. The coefficinets matrix(A) is not strictly diagonally dominant.(So you can apply another method for this system: for instance Gaussian Elimination.)
+NSDD_A sufficient condition for the method to converge is not satisfied. The coefficinets matrix(A) is not strictly diagonally dominant. (So you can apply another method for this system: for instance Gaussian Elimination.)
 
 #9
-NSDD_A sufficient condition for the method to converge is not satisfied. The coefficinets matrix(A) is not strictly diagonally dominant.(So you can apply another method for this system: for instance Gaussian Elimination.)
+NSDD_A sufficient condition for the method to converge is not satisfied. The coefficinets matrix(A) is not strictly diagonally dominant. (So you can apply another method for this system: for instance Gaussian Elimination.)
 
 #10
-NSDD_A sufficient condition for the method to converge is not satisfied. The coefficinets matrix(A) is not strictly diagonally dominant.(So you can apply another method for this system: for instance Gaussian Elimination.)
+NSDD_A sufficient condition for the method to converge is not satisfied. The coefficinets matrix(A) is not strictly diagonally dominant. (So you can apply another method for this system: for instance Gaussian Elimination.)
 
 #11
 NSQ_Non-square matrix. (So you can apply another method for this system: for instance Gaussian Elimination.)
 
 #12
-NSDD_A sufficient condition for the method to converge is not satisfied. The coefficinets matrix(A) is not strictly diagonally dominant.(So you can apply another method for this system: for instance Gaussian Elimination.)
+NSQ_Non-square matrix. (So you can apply another method for this system: for instance Gaussian Elimination.)
 
 #13
-NSDD_A sufficient condition for the method to converge is not satisfied. The coefficinets matrix(A) is not strictly diagonally dominant.(So you can apply another method for this system: for instance Gaussian Elimination.)
+NSQ_Non-square matrix. (So you can apply another method for this system: for instance Gaussian Elimination.)
 
 #14
+NSDD_A sufficient condition for the method to converge is not satisfied. The coefficinets matrix(A) is not strictly diagonally dominant. (So you can apply another method for this system: for instance Gaussian Elimination.)
+
+#15
+NSDD_A sufficient condition for the method to converge is not satisfied. The coefficinets matrix(A) is not strictly diagonally dominant. (So you can apply another method for this system: for instance Gaussian Elimination.)
+
+#16
+NSQ_Non-square matrix. (So you can apply another method for this system: for instance Gaussian Elimination.)
+
+#17
+NSQ_Non-square matrix. (So you can apply another method for this system: for instance Gaussian Elimination.)
+
+#18
+NSDD_A sufficient condition for the method to converge is not satisfied. The coefficinets matrix(A) is not strictly diagonally dominant. (So you can apply another method for this system: for instance Gaussian Elimination.)
+
+#19
+NSDD_A sufficient condition for the method to converge is not satisfied. The coefficinets matrix(A) is not strictly diagonally dominant. (So you can apply another method for this system: for instance Gaussian Elimination.)
+
+#20
+NSDD_A sufficient condition for the method to converge is not satisfied. The coefficinets matrix(A) is not strictly diagonally dominant. (So you can apply another method for this system: for instance Gaussian Elimination.)
+
+#21
+NSQ_Non-square matrix. (So you can apply another method for this system: for instance Gaussian Elimination.)
+
+#22
+NSDD_A sufficient condition for the method to converge is not satisfied. The coefficinets matrix(A) is not strictly diagonally dominant. (So you can apply another method for this system: for instance Gaussian Elimination.)
+
+#23
+NSDD_A sufficient condition for the method to converge is not satisfied. The coefficinets matrix(A) is not strictly diagonally dominant. (So you can apply another method for this system: for instance Gaussian Elimination.)
+
+#24
 NSQ_Non-square matrix. (So you can apply another method for this system: for instance Gaussian Elimination.)
 

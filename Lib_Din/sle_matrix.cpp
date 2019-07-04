@@ -14,7 +14,7 @@ Matrix::Matrix()
 Matrix::Matrix(std::size_t r, std::size_t c)
 	:rows(r), columns(c), size(r * c)
 {
-	if(0 == columns) {
+	if(0 == columns && rows != 0) {
 		columns = rows;
 		rows = 1;
 		size = columns;
@@ -97,7 +97,6 @@ float& Matrix::operator()(std::size_t i)
 	return data[0][i];
 }
 
-//vector represented as 1xn matrix, thus operator(with single parameter) returns elements from first row when we use it with mxn (m!=1) matrix
 const float& Matrix::operator()(std::size_t i) const
 {
 	return data[0][i];

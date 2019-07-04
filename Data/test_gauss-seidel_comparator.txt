@@ -1,6 +1,4 @@
 epsilon = 0.0001
-There is a mismatch of solution's numbers: 30 -> 3
-There is a mismatch of solution's numbers: 50 -> 5
 =====================================================================
 Checked solutions: 24
 Incompatible_results: 0, percentage: 0%

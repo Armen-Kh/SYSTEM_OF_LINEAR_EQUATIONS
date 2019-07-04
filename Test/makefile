@@ -3,7 +3,7 @@ SOURCES = $(wildcard *.cpp)
 TARGETS = $(patsubst %.cpp,../Bin/%.exe, $(SOURCES))
 #TARGET = ../Bin/test_gauss_comparator.exe
 
-.PHONY : START
+.PHONY : START 
 
 START : $(TARGETS)
 

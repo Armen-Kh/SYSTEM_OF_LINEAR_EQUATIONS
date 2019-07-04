@@ -67,18 +67,18 @@ bool Read_Result(File_Reader& fr, Result& R)
 {
         std::string s;
         char c;
-        std::size_t m, n;
+        std::size_t m, n, number;
         float f;
-        if(!(fr.char_reading(c) && fr.sizet_reading(n))) {
+        if(!(fr.char_reading(c) && fr.sizet_reading(number))) {
                 return false;
         }
-        R.set_number(n);
 
         if(!fr.string_reading(s)) {
                 return false;
         }
-	//if("NS_The system has no solution!" == s) {
 	if('N' == s[0]) {
+        	R = Result(s, 0, 0);
+		R.set_number(number);
 		return true;
 	}
 
@@ -88,6 +88,7 @@ bool Read_Result(File_Reader& fr, Result& R)
         }
 
         R = Result(s, m, n);
+        R.set_number(number);
 
         for(std::size_t i = 0; i < R.get_size(); ++i) {
                 if(!(fr.float_reading(f) && fr.char_reading(c))) {
@@ -111,7 +112,7 @@ bool Write_SLE_Solution(File_Writer& fw,const Result& X)
 	}
 
 	if('N' == X.get_state()[0]) {
-		if(!fw.string_writing("\n")) {
+		if(!fw.char_writing('\n')) {
 			return false;
 		}
 		return true;

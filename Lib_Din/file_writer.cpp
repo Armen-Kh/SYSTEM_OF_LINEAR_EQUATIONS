@@ -47,3 +47,4 @@ bool File_Writer::string_writing(const std::string& s)
 	}
 	return false;
 }
+

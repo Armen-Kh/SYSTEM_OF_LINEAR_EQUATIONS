@@ -8,16 +8,30 @@
 #include <cstddef>
 #include <string>
 
-//comparing the data, if the data difference is greater than epsilon, the result is incorrect
+//comparing the data, if state or size are not the same / the data difference is greater than epsilon, the result is incorrect
 bool Data_Analyze(Result& G, Result& X, float& epsilon); 
-
-void Write_Test_Conclusion (File_Writer& Fw, std::size_t& checked, std::size_t incompatible_results);
-
-int main()
+void Write_Test_Conclusion(File_Writer& Fw, std::size_t& checked, std::size_t incompatible_results);
+void comparator(const char*, const char*, const char*);
+	
+int main() 
 {
-	File_Reader Fr_s("./Data/SLE_Gauss_Solutions.txt");
-	File_Reader Fr_g("./Data/Golden_Gauss_Method.txt");
-	File_Writer Fw("./Data/test_gauss_comparator.txt");
+	comparator("./Data/Golden_Gauss-Seidel_Jacobi_Methods.txt",
+		       "./Data/SLE_Jacobi_Solutions.txt",
+		       "./Data/test_jacobi_comparator.txt");
+
+	comparator("./Data/Golden_Gauss-Seidel_Jacobi_Methods.txt",
+		       "./Data/SLE_Gauss_Seidel_Solutions.txt",
+		       "./Data/test_gauss-seidel_comparator.txt");
+
+	return 0;
+}
+
+
+void comparator(const char* golden_file, const char* solution_file, const char* result_file)
+{
+	File_Reader Fr_s(solution_file);
+	File_Reader Fr_g(golden_file);
+	File_Writer Fw(result_file);
 	
 	Result X, G;
 
@@ -41,9 +55,7 @@ int main()
 		       Fw.sizet_writing(X.get_number());
 
 	       }
-	       if(G.get_state() != X.get_state() ||
-		  G.get_size() != X.get_size() ||
-		  !Data_Analyze(G, X, epsilon)) {
+	       if(!Data_Analyze(G, X, epsilon)) {
 		       Fw.string_writing("\nIncompatible_results: ");
 		       Fw.char_writing('#');
 		       Fw.sizet_writing(G.get_number());
@@ -52,24 +64,35 @@ int main()
 	       ++checked;
 	}
 	
-	Write_Test_Conclusion (Fw, checked, incompatible_results);
-	std::cout << "\nTest results are presented in \"test_gauss_comparator.txt\" file (folder Data).\n";
-	return 0;
+	Write_Test_Conclusion(Fw, checked, incompatible_results);
+	std::cout << "\nTest results are presented in \"" << result_file << "\" file (folder Data).\n";
 }
 
 bool Data_Analyze(Result& G, Result& X, float& epsilon) 
 {
-	for(std::size_t i = 0; i < G.get_size(); ++i) {
-		float diff = std::abs(G(i) - X(i));
-		if(diff > epsilon) {
+	if((G.get_state() == X.get_state()) && X.get_state()[0] == 'N') {
+		return true;
+	}
+
+
+	if((G.get_state()[0] == 'I') && X.get_state()[0] == 'I') {
+		if(G.get_size() != X.get_size()) {
 			return false;
 		}
+		for(std::size_t i = 0; i < G.get_size(); ++i) {
+			float diff = std::abs(G(i) - X(i));
+			if(diff > epsilon) {
+				return false;
+			}
+		}
+		return true;
 	}
-	return true;
+
+	return false;
 }	
 
 
-void Write_Test_Conclusion (File_Writer& Fw, std::size_t& checked, std::size_t incompatible_results)
+void Write_Test_Conclusion(File_Writer& Fw, std::size_t& checked, std::size_t incompatible_results)
 {
 	Fw.string_writing("\n=====================================================================");
 	Fw.string_writing("\nChecked solutions: ");

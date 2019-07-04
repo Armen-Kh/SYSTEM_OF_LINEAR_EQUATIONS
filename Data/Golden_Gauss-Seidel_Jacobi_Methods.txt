@@ -2,34 +2,34 @@
 NSDD_A sufficient condition for the method to converge is not satisfied. The coefficinets matrix(A) is not strictly diagonally dominant. (So you can apply another method for this system: for instance Gaussian Elimination.)
 
 #2
-Iteration steps: 23
+Iteration steps:
 X(1x2)
-7.11109, -3.22216, 
+7.11106, -3.22218, 
 
 #3
-Iteration steps: 13
+Iteration steps:
 X(1x4)
-0.99999, 2.00002, -1.00001, 1.00002, 
+1, 2, -1, 1, 
 
 #4
-Iteration steps: 10
+Iteration steps:
 X(1x2)
-0.812202, -0.664991, 
+0.812183, -0.664975, 
 
 #5
-Iteration steps: 11
+Iteration steps:
 X(1x3)
-2.99996, 2.00006, 1.00004, 
+3, 2, 1, 
 
 #6
-Iteration steps: 13
+Iteration steps:
 X(1x3)
--1.42335, 2.13143, 1.95622, 
+-1.42336, 2.13139, 1.9562,
 
 #7
-Iteration steps: 13
+Iteration steps:
 X(1x3)
-1.50007, 2.49993, 3.49993, 
+1.5, 2.5, 3.5,
 
 #8
 NSDD_A sufficient condition for the method to converge is not satisfied. The coefficinets matrix(A) is not strictly diagonally dominant. (So you can apply another method for this system: for instance Gaussian Elimination.)
